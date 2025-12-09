@@ -1,0 +1,70 @@
+/* ======================
+BASIC E-COMMERCEPAGE STYLING
+====================== */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: lightgray
+}
+
+/* HEADER STYLING */
+h1 {
+     color: black;
+    margin-bottom: 30px;
+}
+
+/* PRODUCT BOX STYLING */
+.product-box {
+    border: 2px solid gray;
+    padding: 15px;
+    margin: 0 auto;
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* PRODUCT IMAGE STYLING */
+.product-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* PRODUCT TITLE */
+.product-box h2 {
+    font-size: 20px;
+    margin-top: 10px ;
+    color: black;
+}
+
+/* PRODUCT DESCRIPTION */
+.description {
+    font-size: 14px;
+    color:dimgray;
+    margin: 10px 0;
+}
+/* PRODUCT PRICE */
+.price {
+    color:red;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/*button styling*/
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer
+    background-color: darkgray;
+}
+
+/*button hover effect*/
+button:hover {
+    background-color: darkblue;
+}
